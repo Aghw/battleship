@@ -1,0 +1,99 @@
+* {box-sizing: border-box;}
+
+
+body {
+   background-color: rgb(255, 255, 255);
+   position:relative;
+   line-height: 1.5;
+   margin: 0 auto;
+}
+
+
+#primary-content {
+  font-family: 'Syncopate', sans-serif;
+  color: blue;
+  font-size: 3.5rem;
+  font-weight: lighter;
+  padding: 0 2rem;
+}
+
+#primary-content::first-letter {
+   font-size: 5rem;
+}
+
+/**
+ ** Page-header of Battleship pages
+ **/
+.company-main-header {
+  margin: 0 auto;
+  font-family: 'Syncopate', Trebuchet, Arial,  Helevetica sans, sans-serif;
+  font-weight: lighter;
+  font-size: 3.5rem;
+
+  background-color: rgb(255,255,255);
+  color: black;
+  border: 0.0001rem dotted orange;
+}
+
+
+.header-logo-and-title {
+    display:flex;
+    flex-direction: row;
+}
+
+/**
+ ** menu
+ **/
+.main-menu {
+  background-color: rgb(69, 154, 211);
+
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+  width: 100%;
+  padding: 0.001rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.main-menu li {
+  display: inline;
+
+  font-size: 2rem;
+  text-shadow: 0 0 0.1rem #333;
+}
+
+.main-menu a {
+  color: #F2F2F2;
+  text-align: center;
+  padding: 2rem 1rem;
+  text-decoration: none;
+
+}
+
+.main-menu a:active {
+  background-color: yellow;
+  border-radius: 0.75rem;
+  color: white;
+}
+
+
+
+.company-main-logo {
+  position: relative;
+  left:1rem;
+  top: 1rem;
+  margin: 0 1rem 0 0;
+}
+
+
+/* ---------------------- End of menu -----------------*/
+.main-battleship-page {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-battleship-page h2 {
+  font-size: 1.5rem;
+}
